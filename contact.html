@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我 - 周延翔</title>
+  <meta name="description" content="欢迎与我联系，讨论您的UI设计项目需求">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">Z</span>
+        <span class="logo-text">Portfolio</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#about" class="nav-link">关于</a></li>
+        <li><a href="portfolio.html" class="nav-link">作品</a></li>
+        <li><a href="about.html" class="nav-link">履历</a></li>
+        <li><a href="contact.html" class="nav-link active">联系</a></li>
+      </ul>
+      <div class="hamburger" aria-label="菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu-content">
+      <ul class="mobile-menu-links">
+        <li><a href="index.html#about">关于我</a></li>
+        <li><a href="portfolio.html">精选作品</a></li>
+        <li><a href="about.html">个人履历</a></li>
+        <li><a href="contact.html">联系我</a></li>
+      </ul>
+      <div class="mobile-social">
+        <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+        <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top: 120px;">
+    <div class="section-header">
+      <span class="section-tag">联系</span>
+      <h2 class="section-title">联系我</h2>
+      <p class="section-desc">欢迎与我联系，讨论您的项目需求</p>
+    </div>
+    
+    <div class="contact-layout">
+      <div class="contact-card glass animate-fade-in-up">
+        <h3>联系方式</h3>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope" style="color: var(--tech-blue);"></i>
+            <a href="mailto:zackzyx@qq.com">zackzyx@qq.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone" style="color: var(--cyan-accent);"></i>
+            <span>17770383752</span>
+          </div>
+          <div class="contact-item qr-container">
+            <span>微信二维码</span>
+            <img src="images/微信图片_2026-05-20_195708_474.png" alt="微信二维码" class="qr-code" loading="lazy">
+          </div>
+        </div>
+        <div class="social-links" style="margin-top: 2rem; justify-content: flex-start;">
+          <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+          <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-card glass animate-fade-in-up">
+        <h3>发送消息</h3>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" required placeholder=" ">
+            <label for="name">姓名</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" required placeholder=" ">
+            <label for="email">邮箱</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" required placeholder=" ">
+            <label for="subject">主题</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" required placeholder=" "></textarea>
+            <label for="message">消息内容</label>
+          </div>
+          <button type="submit" class="submit-btn">发送消息</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="success-modal">
+    <i class="fas fa-check-circle fa-4x" style="color: var(--cyan-accent); margin-bottom: 1rem;"></i>
+    <h3>消息发送成功</h3>
+    <p>感谢您的消息，我会尽快回复您！</p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">Z</span>
+        <span class="logo-text">Portfolio</span>
+      </div>
+      <p class="footer-desc">专注于创造优雅的数字体验</p>
+      <div class="social-links">
+        <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+        <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 周延翔. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
